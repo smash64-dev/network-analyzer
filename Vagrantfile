@@ -5,10 +5,8 @@ require 'time'
 
 Vagrant.configure("2") do |config|
   config.vm.box = "generic/alpine312"
-  config.vm.hostname = "netplay-analyzer.local"
-
-  config.vm.network "private_network", type: "dhcp", auto_config: false
-  config.vm.network "public_network", hostname: true
+  config.vm.hostname = "network-analyzer.local"
+  config.vm.network "public_network"
 
   config.vm.synced_folder ".", "/vagrant", disabled: true
   config.vm.synced_folder "config", "/config", create: true
