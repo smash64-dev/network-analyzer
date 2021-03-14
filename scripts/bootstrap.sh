@@ -32,7 +32,7 @@ mkdir -p \
 
 
 # ssh
-sed -i 's/^PasswordAuthentication yes/PasswordAuthentication no/' /etc/smokeping/basepage.html
+sed -i 's/^PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
 rc-service sshd restart
 
 
