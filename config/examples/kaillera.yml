@@ -1,0 +1,20 @@
+---
+
+Kaillera:
+  menu: Kaillera
+  title: Kaillera Servers
+
+  eLbeaNEast:
+    menu: eL beaN Server (East)
+    title: eL beaN Server (East) (35.245.177.68)
+    host: 35.245.177.68
+
+  Chicago:
+    menu: SSB Chicago
+    title: SSB Chicago (162.211.66.81)
+    host: 162.211.66.81
+
+  WilsSanFran:
+    menu: Wils SanFran Server
+    title: Wils SanFran Server (165.227.60.3)
+    host: 165.227.60.3

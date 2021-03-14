@@ -1,0 +1,26 @@
+---
+
+FAANG:
+  menu: FAANG
+  title: FAANG
+  remark: Big tech companies in the United States
+
+  Facebook:
+    menu: Facebook
+    host: facebook.com
+
+  Amazon:
+    menu: Amazon
+    host: amazon.com
+
+  Apple:
+    menu: Apple
+    host: apple.com
+
+  Netflix:
+    menu: Netflix
+    host: netflix.com
+
+  Google:
+    menu: Google
+    host: google.com

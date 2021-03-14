@@ -7,15 +7,5 @@ title = Network Latency Grapher
 remark = Welcome! This is a local SmokepPing website to help \
          troubleshoot your network latency issues.
 
-+ Local
+@include /etc/smokeping/config.d/UserTargets
 
-menu = Local
-title = Local Network
-remark = Devices that are behind your router and/or modem
-
-++ NetworkAnalyzer
-
-menu = Network Analyzer
-title = Network Analyzer
-remark = This is the virtual machine checking network latency
-host = localhost

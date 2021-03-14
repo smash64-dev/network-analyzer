@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
+# bootstrap.sh - initial configuration
+
 set -e
 BASEDIR="/tmp/provision"
-
+DATADIR="/data"
 
 # packages
 apk add --no-cache \
@@ -24,6 +26,7 @@ install -m755 -D $BASEDIR/tcpping /usr/bin/
 
 # directories
 mkdir -p \
+	$DATADIR/smokeping \
 	/etc/smokeping/config.d \
 	/var/cache/smokeping
 
