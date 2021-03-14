@@ -31,6 +31,11 @@ mkdir -p \
 	/var/cache/smokeping
 
 
+# ssh
+sed -i 's/^PasswordAuthentication yes/PasswordAuthentication no/' /etc/smokeping/basepage.html
+rc-service sshd restart
+
+
 # apache2
 cp -f $BASEDIR/apache2/smokeping.conf /etc/apache2/conf.d/
 
