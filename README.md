@@ -7,7 +7,7 @@ overkill tool to help non-technical gamers troubleshoot network-related netplay 
 
 - ~500 MB of disk space
 - Virtualization (VT-x/AMD-V) enabled in your BIOS
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads) installed
 - [Vagrant](https://www.vagrantup.com/downloads) installed
 - Reboot after installing VirtualBox
 
@@ -17,7 +17,7 @@ overkill tool to help non-technical gamers troubleshoot network-related netplay 
 
 - Download and extract [Network Analyzer](https://github.com/smash64-dev/network-analyzer/archive/main.zip)
 - Open a command prompt / terminal in the analyzer directory
-- Create and configure the virtual machine with
+- Create and configure the virtual machine with:
 
 ```
 $ vagrant up
@@ -39,7 +39,7 @@ Connection to 127.0.0.1 closed.
 (There are example configs in the `examples` directory)
 - To change other smokeping config, edit `data/smokeping/*` after the initial setup
 - Open a command prompt / terminal in the analyzer directory
-- Reload the configuration with
+- Reload the configuration with:
 ```
 $ vagrant reload
 ```
@@ -50,7 +50,7 @@ $ vagrant reload
 ## Shutting down the analyzer
 
 - Open a command prompt / terminal in the analyzer directory
-- Shutdown the virtual machine with
+- Shutdown the virtual machine with:
 
 ```
 $ vagrant suspend
@@ -59,7 +59,7 @@ $ vagrant suspend
 ## Checking if the analyzer is running
 
 - Open a command prompt / terminal in the analyzer directory
-- Check th status of the analyzer with
+- Check th status of the analyzer with:
 
 ```
 $ vagrant status
@@ -68,7 +68,7 @@ $ vagrant status
 ## Deleting the analyzer
 
 - Open a command prompt / terminal in the directory
-- Delete the virtual machine with
+- Delete the virtual machine with:
 
 ```
 $ vagrant destroy
