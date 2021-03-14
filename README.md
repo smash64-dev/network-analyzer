@@ -5,6 +5,7 @@ overkill tool to help non-technical gamers troubleshoot network-related netplay 
 
 ## Prerequisites
 
+- ~500 MB of disk space
 - Virtualization (VT-x/AMD-V) enabled in your BIOS
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [Vagrant](https://www.vagrantup.com/downloads) installed
