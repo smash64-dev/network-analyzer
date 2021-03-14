@@ -79,14 +79,17 @@ $ vagrant destroy
 
 # FAQ
 
+- **Q:** How do I check for and/or enable virtualization on my machine?\
+**A:** There's a lot of guides on the internet, but [this one](https://support.bluestacks.com/hc/en-us/articles/115003174386-How-to-enable-Virtualization-VT-on-Windows-10-for-BlueStacks-4) seems good
+
+- **Q:** Why does vagrant take so long on Windows?\
+**A:** It's a known issue, see [Vagrant CLI on Windows is very slow](https://github.com/hashicorp/vagrant/issues/11853)
+
 - **Q:** Isn't this just [smokeping](https://oss.oetiker.ch/smokeping/)?\
 **A:** Yes, for now; but maybe it will do other things later!
 
 - **Q:** This seems like overkill, is there not an easier way?\
 **A:** Yea, probably
-
-- **Q:** Why does vagrant take so long on Windows?\
-**A:** It's a known issue, see [Vagrant CLI on Windows is very slow](https://github.com/hashicorp/vagrant/issues/11853)
 
 # License
 
